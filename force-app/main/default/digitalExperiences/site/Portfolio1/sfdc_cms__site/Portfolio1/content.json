@@ -1,0 +1,7 @@
+{
+  "type" : "sfdc_cms__site",
+  "title" : "Portfolio",
+  "contentBody" : {
+    "authenticationType" : "AUTHENTICATED"
+  }
+}
