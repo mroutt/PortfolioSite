@@ -1,0 +1,27 @@
+
+
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+}
+
+label {
+    text-align: left;
+    margin-top: 10px;
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.btn-container > * {
+    width: 40%;
+}
+
+
