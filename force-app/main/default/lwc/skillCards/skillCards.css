@@ -1,0 +1,42 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    margin: 10px;
+}
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+
+  .text-container {
+    padding: 8px;
+    margin: 0 8px;
+  }
+
+  .text-container h4 {
+    text-align: center;
+    font-size: 28px;
+
+  }
+
+  .text-container p {
+    font-size: 18px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 48px;
+  }
+
+  @media only screen and (min-width: 768px) {
+
+    .card-container {
+        display: flex;
+    }
+
+    .card {
+        width: 33%;
+    }
+  }
