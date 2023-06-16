@@ -39,6 +39,20 @@
             "sectionConfig" : "{\"UUID\":\"67db99bf-de45-4643-b19e-d83143407b7d\",\"columns\":[{\"UUID\":\"7e4314fe-9f97-4d9c-a868-db3186ce6196\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
           },
           "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "This site built using Lightning Web Components running on Lightning Web Runtime.",
+                "textAlign" : "center",
+                "textDecoration" : "{\"italic\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "39c12f4c-c03a-405a-a99b-2833017f4fd3",
+              "type" : "component"
+            } ],
             "id" : "7e4314fe-9f97-4d9c-a868-db3186ce6196",
             "name" : "footerSection",
             "title" : "Theme Footer",

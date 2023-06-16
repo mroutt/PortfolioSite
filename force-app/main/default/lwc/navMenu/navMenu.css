@@ -1,3 +1,8 @@
+.outer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
